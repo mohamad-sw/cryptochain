@@ -1,0 +1,27 @@
+{
+  "name": "cryptochain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "@types/jest": "^27.0.2",
+    "axios": "^0.23.0",
+    "elliptic": "^6.5.4",
+    "express": "^4.17.1",
+    "hex-to-binary": "^1.0.1",
+    "redis": "^3.1.2",
+    "tcp-port-used": "^1.0.2",
+    "uuid": "^8.3.2"
+  }
+}

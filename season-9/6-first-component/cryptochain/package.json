@@ -1,0 +1,31 @@
+{
+  "name": "cryptochain",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node index",
+    "build-client": "parcel build client/src/index.html --dist-dir client/dist",
+    "dev-client": "parcel client/src/index.html --dist-dir client/dist",
+    "dev": "concurrently \"npm run dev-client\" \"node index\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "parcel": "^2.0.0"
+  },
+  "dependencies": {
+    "@types/jest": "^27.0.2",
+    "axios": "^0.23.0",
+    "elliptic": "^6.5.4",
+    "express": "^4.17.1",
+    "hex-to-binary": "^1.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "redis": "^3.1.2",
+    "tcp-port-used": "^1.0.2",
+    "uuid": "^8.3.2"
+  }
+}

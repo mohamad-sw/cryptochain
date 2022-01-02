@@ -1,0 +1,157 @@
+body{
+  background-color: #f5f4f4;
+  font-family: sans-serif;
+  color: #444;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+.wallet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 0 2px 8px 0px rgb(0 0 0 / 20%);
+}
+
+.wallet .address, .balance{
+  background-color: #f5f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+  color: #777;
+}
+
+.wallet i{
+  margin-right: 10px;
+}
+
+.wallet img{
+  width: 100px;
+  margin-right: 50px;
+}
+
+.wallet button{
+  background-color: rgba(41,128,188,.8);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.blocks{
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px;
+  box-shadow: 0 2px 8px 0px rgb(0 0 0 / 20%);
+}
+
+.blocks img{
+  width: 200px;
+  margin-right: 20px;
+}
+
+.blocks .header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.blocks .header h1{
+  font-size: 50px;
+}
+
+.block{
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(41,128,188,.5);
+  border-radius: 10;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.block div{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.block .show{
+  background-color: white;
+  color: rgba(41,128,188,.5);
+  border-radius: 5px;
+  padding : 5px;
+}
+
+.block .show:hover{
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.form{
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px 0px rgb(0 0 0 / 20%);
+}
+
+.form input{
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.form button{
+  background-color: rgba(41,128,188,.8);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.transaction-pool{
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px 0px rgb(0 0 0 / 20%);
+}
+
+.transaction-pool div{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.transaction-pool button{
+  background-color: rgba(41,128,188,.8);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+.transaction-pool a{
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=index.28b9b1f9.css.map */
